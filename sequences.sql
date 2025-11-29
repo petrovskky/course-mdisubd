@@ -1,0 +1,11 @@
+CREATE SEQUENCE department_code_seq 
+    START WITH 1 
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 999;
+
+CREATE SEQUENCE category_code_seq 
+    START WITH 1 
+    INCREMENT BY 1
+    MINVALUE 1
+    MAXVALUE 999;
